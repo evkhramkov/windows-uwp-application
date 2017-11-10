@@ -24368,11 +24368,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ewgen\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\windows-uwp-application\\windows-uwp-application\\windows-uwp-application.csproj",
+      "projectUniqueName": "C:\\Users\\ewgen\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\windows-uwp-application\\windows-uwp-application\\windows-uwp-application\\windows-uwp-application.csproj",
       "projectName": "windows-uwp-application",
-      "projectPath": "C:\\Users\\ewgen\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\windows-uwp-application\\windows-uwp-application\\windows-uwp-application.csproj",
+      "projectPath": "C:\\Users\\ewgen\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\windows-uwp-application\\windows-uwp-application\\windows-uwp-application\\windows-uwp-application.csproj",
       "packagesPath": "C:\\Users\\ewgen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ewgen\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\windows-uwp-application\\windows-uwp-application\\obj\\",
+      "outputPath": "C:\\Users\\ewgen\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\windows-uwp-application\\windows-uwp-application\\windows-uwp-application\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -24395,18 +24395,22 @@
       }
     },
     "dependencies": {
+      "com.ewgenius.test-nuget-package": {
+        "target": "Package",
+        "version": "1.0.0"
+      },
       "Microsoft.NETCore.UniversalWindowsPlatform": {
         "target": "Package",
         "version": "5.4.0"
-      },
-      "com.ewgenius.test-nuget-package": {
-        "target": "Package",
-        "version": "[1.0.0, )"
       }
     },
     "frameworks": {
       "uap10.0.10586": {
         "dependencies": {
+          "com.ewgenius.test-nuget-package": {
+            "target": "Package",
+            "version": "1.0.0"
+          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "5.4.0"
