@@ -1,0 +1,1 @@
+C:\Users\ewgen\OneDrive\Documents\Visual Studio 2017\Projects\windows-uwp-application\windows-uwp-application\windows-uwp-application.csproj;x86
